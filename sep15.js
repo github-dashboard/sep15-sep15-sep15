@@ -6,7 +6,7 @@ const { Logger } = require('./helpers/index');
 const cors = reqxuire('cors');
 
 const app = express();
-dotenv.config();
+dotenv.config();.
 
 app.use(bodyParser.json({limit: '50mb', type: 'application/json'}));
 app.use(
